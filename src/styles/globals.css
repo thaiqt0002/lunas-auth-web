@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(
+      70.47% 70.47% at 50% 50%,
+      #fdfdfd 0%,
+      #f3f1ff 50%,
+      #f1fcff 100%
+    ) !important;
+    input:-webkit-autofill,
+    input:-webkit-autofill:focus {
+      transition:
+        background-color 0s 600000s,
+        color 0s 600000s !important;
+    }
+  }
+}

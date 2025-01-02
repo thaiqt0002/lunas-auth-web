@@ -1,0 +1,28 @@
+export const cookies = {
+  user: 'user',
+}
+
+export const channels = {
+  userStatus: 'USER_STATUS',
+  auth: 'AUTH',
+}
+
+export enum EStatus {
+  ORDER_ACCEPTED = 1,
+  PENDING_PAYMENT = 2,
+  PAID = 3,
+  WAITING_FOR_PRODUCTION = 4,
+  PRODUCED = 5,
+  SHIPPING_TO_VIETNAM = 6,
+  SHIPPED_TO_VIETNAM = 7,
+  WAITING_FOR_PAYMENT_OF_SURCHARGE = 8,
+  SURCHARGE_PAID = 9,
+  IN_TRANSIT = 10,
+  PREPARING_GOODS = 11,
+  GOODS_READY = 12,
+  TRANSFERRING_TO_SHIPPING_UNIT = 13,
+  SENT_TO_SHIPPING_UNIT = 14,
+  ON_DELIVERY = 15,
+  FINISHED = 16,
+  CANCELED = 17,
+}

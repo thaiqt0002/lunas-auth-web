@@ -1,0 +1,5 @@
+export const API_URL = process.env.NEXT_PUBLIC_API_URL || ''
+export const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || ''
+export const IMAGE_URL = process.env.NEXT_PUBLIC_IMAGE_URL || ''
+export const MSG_URL = process.env.NEXT_PUBLIC_MSG_URL || ''
+export const PAYMENT_URL = process.env.NEXT_PUBLIC_PAYMENT_URL || ''
